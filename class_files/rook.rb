@@ -8,7 +8,7 @@ class Rook < SlidingPiece
   ]
 
   def display_name
-    color == :black ? "♜" : "♖"  # "bR" : "wR"
+    color == :black ? "♜" : "♖"
   end
 
   def move_dirs

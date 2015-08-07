@@ -8,7 +8,7 @@ class Bishop < SlidingPiece
     ]
 
     def display_name
-      color == :black ? "♝" : "♗"  ## "bB" : "wB"
+      color == :black ? "♝" : "♗"
     end
 
     def move_dirs

@@ -8,6 +8,7 @@ The chess game runs in the terminal.
 2. Navigate to the repo's directory
 3. Type `bundle install` into the terminal
 4. Type `ruby run_chess.rb`
+5. In OSX, `cmd =` can be used to increase the size of the board'
 
 ##Class Structure
 
@@ -20,3 +21,8 @@ The Board class contains all of the logic necessary manipulate the pieces. When 
 ###Pieces
 Each piece on the board is classified as either a Sliding Piece, such as the Queen, or as a Stepping Piece, such as the King. These two classes contain methods to control the movement of pieces.
 Each actual piece is its own class, which inherits from either the Sliding or Stepping piece class. Because the pieces all inherit the proper movement methods, the only information that needs to be stored in each individual piece's class is the valid ways in which it may move.
+
+##Final To-Dos
+- Implement castling
+- Implement en passant
+- Implement pawn promotion

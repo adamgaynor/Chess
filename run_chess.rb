@@ -15,9 +15,7 @@ require_relative 'class_files/human_player.rb'
 require_relative 'class_files/chess_game.rb'
 
 
-
 if $PROGRAM_NAME == __FILE__
-
   player1 = HumanPlayer.new
   player2 = HumanPlayer.new
 

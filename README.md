@@ -2,14 +2,14 @@
 A game of chess written in Ruby. Each aspect of the game is broken down into its own class, using inheritance to avoid unecessary repeated code.
 
 ##To Run:
-The chess game runs in the terminal
+The chess game runs in the terminal.
+
 1. In the terminal, clone the repo
 2. Navigate to the repo's directory
 3. Type `bundle install` into the terminal
 4. Type `ruby run_chess.rb`
 
 ##Class Structure
-A description of the classes used in Chess
 
 ###Chess Game
 The ChessGame class contains the logic to run the Chess game. When initialized, it begins a new game of Chess, and loops between the two players. On each player's turn, the ChessGame records their move and passes it to the Board class. When the game is over, the winner is congratulated.

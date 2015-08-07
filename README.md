@@ -15,7 +15,7 @@ The chess game runs in the terminal.
 The ChessGame class contains the logic to run the Chess game. When initialized, it begins a new game of Chess, and loops between the two players. On each player's turn, the ChessGame records their move and passes it to the Board class. When the game is over, the winner is congratulated.
 
 ###Board
-The Board class contains all of the logic necessary manipulate the pieces. When given a move input by the ChessGame, the Board class checks to see if it is a legal move. It also provides a method for checking if a King is in check, and if the game has ended due to a checkmate.
+The Board class contains all of the logic necessary manipulate the pieces. When given a move input by the ChessGame, the Board class checks to see if it is a legal move. It also provides a method for checking if a King is currently in check, and if the game has ended due to a checkmate.
 
 ###Pieces
 Each piece on the board is classified as either a Sliding Piece, such as the Queen, or as a Stepping Piece, such as the King. These two classes contain methods to control the movement of pieces.
